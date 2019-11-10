@@ -1,0 +1,74 @@
+/* profile.css */
+html {
+  background-color: white;
+}
+
+body {
+  background: none;
+  color: #69707a;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+strong {
+  color: #222324;
+}
+
+.btn {
+  font-weight: 300;
+}
+
+.btn-primary {
+  background: #e16879;
+  border-color: #e16879;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:active:focus {
+  background: #e05164;
+  border-color: #e05164;
+}
+
+.card {
+  padding: 20px;
+  border-width: 2px;
+  border-radius: 0px;
+  border-color: black;
+}
+
+.card-title {
+  color: black;
+  font-weight: bolder;
+}
+
+.card-block small {
+  float: right;
+}
+
+.description {
+  background-color: #fbceb1;
+  background-repeat: repeat-x;
+}
+.img-circle {
+  border-radius: 50%;
+}
+.navbar {
+  position: fixed; 
+  top: 0;
+  overflow: hidden;
+}
+.container {
+  margin-top: 70px;
+}
+.headerme {
+  background-image: url(https://images.unsplash.com/photo-1569448829586-2e4995a3d607?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1577&q=80);
+  margin: 0px;
+  margin:auto;
+  width: 100%;
+}
+.inheader {
+  background-color: white;
+  margin: auto;
+  width: 80%;
+}
