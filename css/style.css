@@ -42,7 +42,11 @@ strong {
 
 .card-block small {
   float: right;
-      &__image {
+}
+
+.card-portfolio {
+    float: right;
+    &__image {
     width: 250px;
     margin: 30px 30px 30px 0;
     float: left;
